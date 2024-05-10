@@ -1,14 +1,17 @@
-import React from 'react';
-import { View,Text} from 'react-native';
+import { TextInput} from 'react-native';
+import { View,Text } from 'react-native';
+import { styles } from './styles';
+<View style = {styles.container}>
+<Text>
+    qualquer coisa
+</Text>
+<TextInput style = {styles.input}/>
 
-export  function SignIn (){
-    return(
-        <View>
-            <Text>
-                Abovora
+<Text>
+    Você digitou:
+</Text>
+</View>
 
-            </Text>
-        </View>
 
-    );
-}
+
+
