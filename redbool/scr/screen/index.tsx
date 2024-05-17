@@ -1,4 +1,4 @@
-import { View,Text,TextInput } from 'react-native';
+import { View,Text,Image,} from 'react-native';
 import { styles } from './styles';
 import { useState } from 'react';
 
@@ -8,16 +8,7 @@ export function SignIn(){
      return (
 
      <View style = {styles.container}>
-     <Text>
-      qualquer coisa
-     </Text>
-     <TextInput style = {styles.input}
-     onChangeText={setText}
-     /> 
-      <Text>
-        Você digitou: {text}
-
-     </Text>
-     </View> ) }
-
-
+    <Image source={}/>
+    </View> 
+  
+  ) }
