@@ -8,7 +8,20 @@ export function SignIn(){
      return (
 
      <View style = {styles.container}>
-    <Image source={}/>
+    <Image source={imagem} style={styles.image}resizeMode='stretch'/>
+    <View style= {styles.content}>
+      <Text style= {styles.title}>
+        Organize Suas {`\n`}
+        Jogatinas {`\n`}
+        facilmente
+      </Text>
+      <Text style={styles.subtitle}>
+        Crie grupos para jogar seus games {`\n`}
+        favoritos seus besties
+
+      </Text>
+    </View>
     </View> 
   
-  ) }
+  );
+ }
